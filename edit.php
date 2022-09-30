@@ -51,9 +51,8 @@
             <input type="number" class="form-control" name="contact" value="<?php echo $attendeeData['contactnumber'] ?>" placeholder="99xxxxxx10" required/>
             <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
         </div>
-        <div class="d-grid">
-            <button type="submit" class="btn btn-success" value="submit" name="submit">Save changes</button>
-        </div>       
+        <a href="viewrecords.php" class="btn btn-default btn">Back to List</a> 
+        <button type="submit" class="btn btn-success" value="submit" name="submit">Save changes</button>     
 </form>
    
 <?php } ?>
